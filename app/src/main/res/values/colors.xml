@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#2196f3</color>
+
+    <color name="colorForgotPasswordText">#757575</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_color">#E8E8E8</color>
+    <color name="background_dark_color">#D9D9D9</color>
+
+    <color name="customize_gray_color">#F2F2F2</color>
+    <color name="customize_gray_color2">#8C8C8C</color>
+
+    <color name="normalColor">#808080</color>
+    <color name="mainColor">#136787</color>
+    <color name="ProgressColor">#00BB1F</color>
+    <color name="light_green">#2CD283</color>
+
+    <color name="mainButton1Active">#2888ac</color><!--#f57002-->
+    <color name="mainButton2Active">#2888AC</color><!--#259cbc-->
+    <color name="mainButton3Active">#2888ac</color><!--#97bf5e-->
+    <color name="mainButtonInactive">#acacac</color>
+    <color name="colorSecondary">#FCA034</color>
+    <color name="mainGray">#DBDBDB</color>
+    <color name="darkGray">#aaa</color>
+
+    <!--TextInputLayoutColors-->
+    <color name="my_gray">#5A5A5A</color>
+    <color name="my_orange">#FF8912</color>
+    <color name="my_pink">#B03F9F</color>
+    <color name="my_black">#212121</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="tab_color_customize">#0098FE</color>
+
+
+
+</resources>

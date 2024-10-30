@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CreateSignatureActivity"
+    >
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/ll_loading_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ProgressBar
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_marginTop="3dp"
+            android:text="Processing..."
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_add_signature"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:background="#0098FE"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            >
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:text="Create Signature"
+                android:textSize="24sp"
+                android:gravity="start|center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                tools:ignore="HardcodedText"
+                />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.geodata.rapida.plus.Tools.CustomSignaturePad
+                android:id="@+id/custom_signature_pad"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#FFFFFF" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_alignTop="@id/custom_signature_pad"
+                android:layout_marginTop="240sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <View
+                    android:background="@color/darkGray"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:text="Use stylus or finger to create your signature"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            tools:ignore="DisableBaselineAlignment"
+            >
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_gravity="center"
+                android:text="Clear Pad"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:ignore="ButtonStyle,HardcodedText"
+                />
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_gravity="center"
+                android:text="Save Signature"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:ignore="ButtonStyle,HardcodedText"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DataPrivacyPolicyActivity"
+    >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="#0098FE"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:tint="@color/white"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_marginStart="20dp"
+            android:text="Data Privacy Policy"
+            android:textSize="24sp"
+            android:gravity="start|center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="HardcodedText"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:padding="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <!--Definitions-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="GeoSolutions respects your privacy. Please read the following to learn more about our Data Privacy Policy (“this policy”). This policy applies to SRI Mobile App and its services.\n\nThis Data Privacy Policy explains what information we collect and process, why we do so; and your rights with regard to your information, we collect your information in accordance with Republic Act No. 10173, also known as the Data Privacy Act.\n\nYou must be at least eighteen (18) years of age to use 7.4 SRI Form Fields Mobile App or any Services contained herein. By using SRI Mobile App, You represent and warrant that you are at least 18 years of age and may legally agree to this agreement. We assume no responsibility or liability or any misrepresentation of your age.\n\nBy using SRI Mobile App, you voluntarily consent to the collection and processing of your personal information in relation to this policy."
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+
+            <!--DATA COLLECTED-->
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="DATA COLLECTED"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="We collect personal information when a user creates an account, completes a registration, or fill out a consent form. The Personal Information we collect may be used to verify your identity and to provide certain services to you, or to recognize you the next time you use our mobile application or other services.\n\nThe personal information may include User's name, address, and other details such as but not limited to the following data:"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Name"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Mobile Number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Email Address"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Date of Birth"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:justificationMode="inter_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Age"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:justificationMode="inter_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Gender"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:justificationMode="inter_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="In addition, information related to the User is collected and stored electronically in a secured and encrypted database."
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+
+            <!--Data Security-->
+            <TextView
+                android:layout_marginTop="30dp"
+                android:text="USE OF THE DATA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="We will not sell, distribute or lease your Personal Information to third parties without your consent, unless:"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Doing so is appropriate to carry out your own request."
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="We believe it's needed to enforce our legal agreements or"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="Required by law to do so"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:justificationMode="inter_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:text="•"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        />
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:text="When it's needed to detect, prevent or address fraud, security or technical issues."
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:justificationMode="inter_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,UnusedAttribute"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="Third-Party Service Providers may have access to user's information if needed to perform their functions and provide additional services. If such access is required, the Third-Party Service Providers will be obligated to maintain the confidentiality and security of that personal information.\n\nTo the extent required by applicable law, you may have the right to access certain personal data we maintain about you. You may request that we update or correct inaccuracies in that data or you may object, or restrict to our use of your personal data, or ask us to delete your personal data from our database.\n\nTo exercise these rights, please write to or email us in this address: "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+
+            <TextView
+                android:id="@+id/tv_email1"
+                android:layout_marginTop="5dp"
+                android:text="@string/string_email"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+
+
+
+
+            <!--DATA SECURITY-->
+            <TextView
+                android:layout_marginTop="30dp"
+                android:text="DATA SECURITY"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Your privacy and security are important to us. We are committed to taking all reasonable steps to secure the information we acquired. We implement a variety of security measures to maintain the safety of your personal information such as Antivirus Protection, Firewall, and Encryption via Secure Sockets Layer (SSL).\n\nOnly authorized personnel may access user's information. All persons who can access the information are required to maintain its confidentiality and comply with data privacy law.\n\nWe reserve the right to update or change this policy at any time and for any reason. We will release the latest Data Privacy Policy on this page for any changes."
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="If you disagree with any aspects of this Data Privacy Policy, you have the right to decide not to use SRI Mobile App. By continuing, you agree that you understand the Data Privacy Policy we have in place."
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+
+            <!--How to Contact Us-->
+            <TextView
+                android:layout_marginTop="30dp"
+                android:text="HOW TO CONTACT US"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="If you have any privacy complaints or issues, and want to contact us, please email"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+            <TextView
+                android:id="@+id/tv_email2"
+                android:text="@string/string_email"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:text="Last Updated: Sept. 02, 2022"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

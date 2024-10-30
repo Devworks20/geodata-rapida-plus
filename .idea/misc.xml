@@ -1,0 +1,175 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable-v24/asset_plus.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable-v24/custom_background_gray_square.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable-v24/ic_baseline_exit_to_app_24.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable-v24/ic_baseline_more_vert_24.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/asset_erase_signature.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/asset_signature_check.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/asset_wrote_signature.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/background_box.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_background_gray_round_5.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_background_square.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_background_square_active.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_blue_background.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_blue_background_round_active_20.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_gray_background_round_20.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_gray_background_round_active_20.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_green_background.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_red_background.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_round_blue_button.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/custom_white_and_black_background.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/customize_background_spinner.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/ic_baseline_chevron_right.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/ic_check_light_green_24dp.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/ic_color.xml" value="0.3566666666666667" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3566666666666667" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/drawable/tab_indicator_color.xml" value="0.2175" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/activity_building_score.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/activity_mission_order.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/activity_mission_order_tab_host.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/building_score_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/custom_layout_assigned_inspector.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/custom_layout_occupancies.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/custom_layout_rvs_list_edi.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/fragment_building_information.xml" value="0.25" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/fragment_desa_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/fragment_mission_order.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/fragment_new_rvs.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/fragment_reports.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/fragment_resa_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/mission_order_list_option_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/mission_order_option_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-large/mission_orders_layout.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-normal/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout-small/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_attaching_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_attachment_web_online_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_building_score.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_create_signature.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_earthquake_damage_inspection_tab_host.xml" value="0.25" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_forgot_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_mission_order.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_mission_order_tab_host.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_new_rvsactivity.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_preview_report_desa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_preview_report_resa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_preview_report_rvs_scoring.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_preview_report_rvsscoring.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_privacy_policy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_registration.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_resa_preview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_rvs_report_pdf.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_rvsscoring_preview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_sketch_pad.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_terms.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_view_pdf_new_rvs_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_view_pdfnew_rvsactivity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_view_sketch_pad.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/activity_what_is_rapida.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/building_score_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_dialog_title.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_information_saving.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_assigned_inspector.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_building_edi.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_falling_hazards.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_for_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_for_other_image.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_mission_order_attachment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_occupancies.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_rvs_list_edi.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_rvsscoring_preview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_layout_select_building_rvs.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/custom_screener_signature_layout.xml" value="0.25" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_building_information.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_desa_layout.xml" value="0.3097228332600088" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_earthquake_damage_inspection_m_o.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_earthquake_damage_inspection_mo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_mission_order.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_mission_order_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_new_rvs.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_reports.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_resa_layout.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_rvs_list.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/fragment_rvs_scoring.xml" value="0.25" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/layout_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/mission_order_list_menu_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/mission_order_list_option_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/mission_order_option_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/mission_orders_layout.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/set_photo_name_dialog_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/sketch_image_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/test_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/layout/view_image_dialog_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/menu/activity_main_drawer_2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/menu/main_drawer_2.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/menu/option_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/menu/option_menu_2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3566666666666667" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3566666666666667" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/mipmap-anydpi-v26/ic_sri.xml" value="0.3566666666666667" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/RapidA+/app/src/main/res/mipmap-anydpi-v26/ic_sri_round.xml" value="0.3566666666666667" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/drawable/custom_background_edit_text_login.xml" value="0.38177083333333334" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/drawable/custom_background_square.xml" value="0.38177083333333334" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/drawable/custom_gallery_active.xml" value="0.38177083333333334" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/drawable/custom_gray_background_round_20.xml" value="0.38177083333333334" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/drawable/custom_round_blue_button.xml" value="0.38177083333333334" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/drawable/custom_white_and_black_background.xml" value="0.38177083333333334" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/drawable/tab_indicator_color.xml" value="0.3828125" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/activity_building_score.xml" value="0.3614583333333333" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/activity_mission_order_tab_host.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/custom_layout_select_building_rvs.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/fragment_desa_layout.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/fragment_mission_order.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/fragment_new_rvs.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/fragment_reports.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout-large/fragment_resa_layout.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/activity_building_score.xml" value="0.3614583333333333" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/activity_login.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/activity_mission_order_tab_host.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/activity_what_is_rapida.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/custom_dialog_title.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/custom_layout_assigned_inspector.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/custom_layout_building_edi.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/custom_layout_for_other_image.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/custom_layout_mission_order_attachment.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/custom_layout_select_building_rvs.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/custom_layout_spinner.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_building_information.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_desa_layout.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_earthquake_damage_inspection_mo.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_mission_order.xml" value="0.3546875" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_new_rvs.xml" value="0.33" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_resa_layout.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_rvs_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/fragment_rvs_scoring.xml" value="0.2693783576362241" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/mission_order_option_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/mission_orders_layout.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/layout/view_image_dialog_layout.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/11. RapidA+ (New Project)/1. Source Code/SRI/app/src/main/res/menu/main_drawer.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/4. RapidA/2. RapidA+/1. Source Code/SRI/app/src/main/res/layout/activity_registration.xml" value="0.365625" />
+        <entry key="..\:/Geosolutions Files/1. Android Current Work/4. RapidA/2. RapidA+/1. Source Code/SRI/app/src/main/res/mipmap-anydpi-v26/ic_sri.xml" value="0.38177083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="temurin-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.36666666666666664" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

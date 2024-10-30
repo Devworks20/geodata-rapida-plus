@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:gravity="start|center"
+                android:text="LIST OF BUILDINGS"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:gravity="start|center"
+                android:text="Click a row from the table to select a building"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText"
+                />
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/asset_close"
+                tools:ignore="ContentDescription"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:background="@color/background_color"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="UselessParent"
+            >
+            <TextView
+                android:id="@+id/tv_region"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center|end"
+                android:text="Region: "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                />
+
+            <Spinner
+                android:id="@+id/spnr_region"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@+id/tv_region"
+                android:background="@drawable/customize_background_spinner"
+                android:entries="@array/region_array" />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/spnr_region"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/asset_arrow_down"
+                tools:ignore="ContentDescription"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="UselessParent"
+            >
+            <TextView
+                android:id="@+id/tv_province"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center|end"
+                android:text="Province: "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/spnr_province"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@+id/tv_province"
+                android:background="@drawable/customize_background_spinner"
+                android:entries="@array/province_array" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/spnr_province"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/asset_arrow_down"
+                tools:ignore="ContentDescription"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/tv_city_municipality"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center|end"
+                android:text="City/Muni: "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <Spinner
+                android:id="@+id/spnr_city_municipality"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/tv_city_municipality"
+                android:background="@drawable/customize_background_spinner"
+                android:entries="@array/city_municipality_array"
+                android:paddingStart="0sp"
+                android:paddingEnd="15dp"
+                />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/spnr_city_municipality"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/asset_arrow_down"
+                tools:ignore="ContentDescription"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="UselessParent"
+            >
+            <TextView
+                android:id="@+id/tv_barangay"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center|end"
+                android:text="Barangay: "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <Spinner
+                android:id="@+id/spnr_barangay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@id/tv_barangay"
+                android:background="@drawable/customize_background_spinner"
+                android:entries="@array/barangay_array"
+                android:paddingStart="0sp"
+                android:paddingEnd="15dp"
+                />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/spnr_barangay"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/asset_arrow_down"
+                tools:ignore="ContentDescription"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="UselessParent"
+            >
+            <TextView
+                android:id="@+id/tv_district_office"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center|end"
+                android:text="District Office: "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                />
+            <Spinner
+                android:id="@+id/spnr_district_office"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@id/tv_district_office"
+                android:background="@drawable/customize_background_spinner"
+                android:entries="@array/district_office_array"
+                android:paddingStart="0sp"
+                android:paddingEnd="20dp" />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/spnr_district_office"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/asset_arrow_down"
+                tools:ignore="ContentDescription"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="UselessLeaf,UselessParent"
+            >
+
+            <TextView
+                android:id="@+id/tv_keyword"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center|end"
+                android:text="Keyword: "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/edt_search_building_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@+id/tv_keyword"
+                android:hint="Building Name"
+                android:textSize="16sp"
+                android:imeOptions="actionDone"
+                android:maxLines="1"
+                tools:ignore="Autofill,HardcodedText,LabelFor,TextFields" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/iv_clear_search_building_name"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/asset_close"
+                app:tint="@color/black"
+                tools:ignore="ContentDescription"
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_search_building_name"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_background_square_blue"
+            android:src="@drawable/places_ic_search"
+            app:tint="@color/white"
+            tools:ignore="ContentDescription"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:weightSum="3"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Building Name"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="Date Built/Age"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/darkGray"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent"
+                >
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:layout_marginBottom="20dp"
+                    android:descendantFocusability="beforeDescendants"
+                    android:fadeScrollbars="false"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="horizontal"
+                    android:scrollbars="vertical"
+                    />
+                <View
+                    android:layout_alignBottom="@+id/rv_list"
+                    android:background="@color/mainGray"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

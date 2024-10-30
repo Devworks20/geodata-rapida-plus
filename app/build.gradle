@@ -1,0 +1,106 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "com.geodata.rapida.plus1" //plus1 SRI,SRS, plus2 ED, plus3 RVS, plus4 RESA,  plus5 DESA, plus6 for FEMA
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 4
+        versionName "4.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    repositories
+            {
+                jcenter()
+            }
+
+    packagingOptions{
+        exclude("META-INF/jersey-module-version")
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.wear:wear:1.1.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //PDF
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+    //Design
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    //Image
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Drawing
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'com.github.yukuku:ambilwarna:2.0.1'
+
+    //API
+    implementation 'com.android.volley:volley:1.2.0'
+    implementation 'com.squareup.retrofit:retrofit:1.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.1'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+    implementation('com.squareup.retrofit2:retrofit:2.5.0') {
+        // exclude Retrofit’s OkHttp dependency module and define your own module import
+        exclude module: 'okhttp'
+    }
+
+    //Email
+    implementation 'com.sun.mail:android-mail:1.6.0'
+    implementation 'com.sun.mail:android-activation:1.6.0'
+    compileOnly 'com.google.android.wearable:wearable:2.8.1'
+
+    //Tool tip
+    implementation 'com.github.vihtarb:tooltip:0.2.0'
+    implementation 'com.github.douglasjunior:android-simple-tooltip:1.0.0-rc.0'
+
+    //Google Play Services
+    //noinspection UseOfBundledGooglePlayServices
+    implementation 'com.google.android.gms:play-services:12.0.1'
+
+    implementation 'commons-net:commons-net:3.3'
+
+    //For Passing object data to Intent
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+}

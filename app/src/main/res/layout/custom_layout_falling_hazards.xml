@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <CheckBox
+        android:gravity="top"
+        android:paddingTop="5dp"
+        android:id="@+id/cbo_desc"
+        android:text="Emergency Services"
+        android:textSize="14sp"
+        android:buttonTint="@color/my_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        />
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/edt_others"
+        android:layout_marginStart="10dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/my_gray"
+        android:text=""
+        android:textSize="14sp"
+        android:background="@drawable/customize_background_spinner"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TextFields"
+        />
+</LinearLayout>

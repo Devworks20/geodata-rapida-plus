@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent"
+        >
+        <Button
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:id="@+id/btn_sign_signature"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/txt_click_signature"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            />
+        <RelativeLayout
+            android:id="@+id/rl_signature"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            >
+            <EditText
+                android:id="@+id/edt_focus"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor,TextFields"
+                />
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_marginEnd="2dp"
+                android:id="@+id/iv_image_remove"
+                android:layout_alignEnd="@id/iv_image"
+                android:src="@drawable/asset_close"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                tools:ignore="ContentDescription"
+                android:background="@drawable/custom_white_and_black_background"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="210dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:background="@drawable/customize_background_spinner"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_screenerName"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text=""
+            android:textStyle="bold"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:background="@drawable/customize_background_spinner"
+            android:id="@+id/tv_position"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Engineer II"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            />
+    </LinearLayout>
+
+</LinearLayout>

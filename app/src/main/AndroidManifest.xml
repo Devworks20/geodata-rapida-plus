@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.geodata.rapida.plus">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".Tools.MyApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_sri_round"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_sri_round"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name=".Activity.ViewPDFNewRVSActivity"
+            android:exported="true" />
+        <activity android:name=".Activity.FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.NavigationActivity" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.RapidVisualScreeningActivity" />
+        <activity android:name=".Activity.RegistrationActivity" />
+        <activity android:name=".Activity.SketchPadActivity" />
+        <activity android:name=".Activity.MissionOrderTabHostActivity" />
+        <activity android:name=".Activity.AttachOtherImagesActivity" />
+        <activity android:name=".Activity.BuildingScoreActivity" />
+        <activity android:name=".Activity.ViewSketchPadActivity" />
+        <activity android:name=".Activity.GetAllDataActivity" />
+        <activity android:name=".Activity.CreateSignatureActivity" />
+        <activity android:name=".Activity.PreviewReportRVSScoringActivity" />
+        <activity android:name=".Activity.TempFileViewActivity" />
+        <activity android:name=".Activity.AttachmentWebOnlineViewActivity" />
+        <activity android:name=".Activity.WhatIsRapidAActivity" />
+        <activity android:name=".Activity.ForgotPasswordActivity" />
+        <activity android:name=".Activity.PreviewReportDESAActivity" />
+        <activity android:name=".Activity.PreviewReportRESAActivity" />
+        <activity android:name=".Activity.EarthquakeDamageInspectionTabHostActivity" />
+        <activity android:name=".Activity.ViewRVSReportPDF" />
+        <activity android:name=".Activity.TermsAndConditionsActivity" />
+        <activity android:name=".Activity.DataPrivacyPolicyActivity" /> <!-- GOOGLE MAP -->
+        <activity android:name=".Activity.LandingPageActivity"/>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"
+            />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/txt_google_map_api"
+            />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage"
+            android:icon="@drawable/ic_circle_png"
+            android:title="Home Page"
+            tools:ignore="HardcodedText"
+            />
+        <item
+            android:id="@+id/nav_rvs"
+            android:icon="@drawable/ic_circle_png"
+            android:title="RVS"
+            tools:ignore="HardcodedText"
+            />
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/ic_circle_png"
+            android:title="Profile"
+            tools:ignore="HardcodedText"
+            />
+    </group>
+
+</menu>

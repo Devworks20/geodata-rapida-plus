@@ -1,0 +1,178 @@
+<resources>
+
+
+    <!--    <string name="app_name">RapidA+</string>-->
+
+<!--      <string name="app_name">Seismic Resiliency Inspection</string>-->
+    <string name="app_name">Seismic Resiliency Survey</string>
+
+
+
+    <!-- <string name="app_name">Emergency Damage Assessment</string>
+-->
+
+
+<!--     <string name="app_name">DESA</string>-->
+
+
+  <!--  <string name="app_name">RESA</string>-->
+
+
+<!--    <string name="app_name">RVS</string>-->
+
+
+   <!-- <string name="app_name">FEMA-154 Seismic Resiliency Inspection</string>-->
+
+    <string name="txt_close">Close</string>
+    <string name="txt_open">Open</string>
+
+    <string name="txt_google_map_api">AIzaSyDQg1g4HqmHdIoF39_9yqwLjUcNmn_AIlw</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="txt_register"><u>REGISTER</u></string>
+    <string name="txt_terms"><u>Terms</u></string>
+    <string name="txt_privacy_policy"><u>Privacy Policy</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_fragment">TestFragment</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+    <string name="txt_signature_required">Sign here <font color='#FF0000'>*</font></string>
+
+    <string name="hello_world">Hello Square World!</string>
+    <string name="string_terms">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="txt_click_signature"><font color='#FF0000'>*</font> Click here to add signature</string>
+    <string name="string_forgot_password"><u>Forgot Password?</u></string>
+    <string name="string_what_is_rapida"><u>What is RapidA+ Mobile App?</u></string>
+    <string name="string_what_is_sri"><u>What is SRI Mobile App?</u></string>
+    <string name="email_address_or_mobile_no">Email address or Mobile No. <font color='#FF0000'>*</font></string>
+    <string name="txt_return_to_login"><u>Return to login</u></string>
+    <string name="string_view_pdf_report"><u>View PDF Report</u></string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="string_final_score_failed">Final Score <b>Failed!</b> Building will be Subject to a Detailed Evaluation.</string>
+
+    <string-array name="building_type_construction_entries">
+        <item>Select Type of Construction</item>
+        <item>Wood Frame</item>
+        <item>Steel Frame</item>
+        <item>Tilt-Up Concrete</item>
+        <item>Concrete Frame</item>
+        <item>Concrete Shear Wall</item>
+        <item>Unreinforced Masonry</item>
+        <item>Reinforced Masonry</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="building_primary_occupancy_entries">
+        <item>Select Occupancy</item>
+        <item>Dwelling</item>
+        <item>Other Residential</item>
+        <item>Public Assembly</item>
+        <item>Emergency Service</item>
+        <item>Commercial</item>
+        <item>Offices</item>
+        <item>Industrial</item>
+        <item>Government</item>
+        <item>Historic</item>
+        <item>School</item>
+        <item>Storage</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="building_estimate_damage_entries">
+        <item>Select Estimate Damage</item>
+        <item>None</item>
+        <item>0-1%</item>
+        <item>1-10%</item>
+        <item>10-30%</item>
+        <item>30-60%</item>
+        <item>60-100%</item>
+        <item>100%</item>
+    </string-array>
+
+    <string-array name="building_previous_posting_entries">
+        <item>Select Posting</item>
+        <item>Inspected</item>
+        <item>Restricted Use</item>
+        <item>Off Limits</item>
+    </string-array>
+
+    <string-array name="building_detailed_evaluation_entries">
+        <item>Recommendation</item>
+        <item>Structural</item>
+        <item>Geotechnical</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="array_building_sector">
+        <item>Residential</item>
+        <item>Commercial</item>
+        <item>Institutional</item>
+    </string-array>
+
+    <string-array name="ABCDE">
+        <item>2.50</item>
+        <item>2.40</item>
+        <item>2.30</item>
+        <item>2.20</item>
+        <item>2.10</item>
+        <item>2.00</item>
+        <item>1.90</item>
+        <item>1.80</item>
+        <item>1.70</item>
+        <item>1.60</item>
+        <item>1.50</item>
+        <item>1.40</item>
+        <item>1.30</item>
+        <item>1.20</item>
+        <item>1.10</item>
+        <item>1.00</item>
+        <item>0.90</item>
+        <item>0.80</item>
+        <item>0.70</item>
+        <item>0.60</item>
+        <item>0.50</item>
+        <item>0.40</item>
+        <item>0.30</item>
+        <item>0.20</item>
+        <item>0.10</item>
+        <item>0.00</item>
+        <item>-0.10</item>
+        <item>-0.20</item>
+        <item>-0.30</item>
+        <item>-0.40</item>
+        <item>-0.50</item>
+        <item>-0.60</item>
+        <item>-0.70</item>
+        <item>-0.80</item>
+        <item>-0.90</item>
+        <item>-1.00</item>
+        <item>-1.10</item>
+        <item>-1.20</item>
+        <item>-1.30</item>
+        <item>-1.40</item>
+        <item>-1.50</item>
+        <item>-1.60</item>
+        <item>-1.70</item>
+        <item>-1.80</item>
+        <item>-1.90</item>
+        <item>-2.00</item>
+        <item>-2.10</item>
+        <item>-2.20</item>
+        <item>-2.30</item>
+        <item>-2.40</item>
+        <item>-2.50</item>
+    </string-array>
+
+    <string name="string_privacy">Please refer to Our</string>
+    <string name="string_data_privacy_policy_link"><u>Data Privacy Policy</u></string>
+    <string name="string_privacy_2">for further information about what information We Collect, how we use it and store it, and Your rights relation to it.</string>
+
+    <string name="string_email"><font color='#0000FF'><u>dpo@geosolutions.com.ph</u></font></string>
+
+
+</resources>

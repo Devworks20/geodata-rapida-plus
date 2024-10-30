@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <group
+        android:checkableBehavior="single"
+        >
+
+        <!--android:title="Seismic Resiliency Survey"-->
+        <!--android:title="Seismic Resiliency Inspection"-->
+        <!--android:title="FEMA-154 Seismic Resiliency Inspection"-->
+
+        <item
+            android:title="Seismic Resiliency Survey"
+            tools:ignore="HardcodedText"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_mission_order"
+                    android:icon="@drawable/icon_file"
+                    android:title="Mission Orders"
+                    android:orderInCategory="1"
+                    tools:ignore="HardcodedText"
+                    />
+            </menu>
+        </item>
+
+        <!--android:title="Emergency Damage Assessment"-->
+        <!--android:title="Earthquake Damage Inspection"-->
+
+        <!--android:title="Rapid Visual Screening"-->
+        <!--android:title="Rapid Evaluation and Safety Assessment"-->
+        <!--android:title="Detailed Evaluation and Safety Assessment"-->
+
+        <item
+            android:visible="false"
+            android:title="Detailed Evaluation and Safety Assessment"
+            tools:ignore="HardcodedText"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_edi_mission_order"
+                    android:icon="@drawable/icon_file"
+                    android:title="Mission Orders"
+                    android:orderInCategory="2"
+                    tools:ignore="HardcodedText"
+                    />
+
+                <item
+                    android:visible="false"
+                    android:id="@+id/nav_new_rvs"
+                    android:icon="@drawable/icon_file"
+                    android:title="RVS"
+                    android:orderInCategory="3"
+                    tools:ignore="HardcodedText"
+                    />
+
+                <!--NOT USE-->
+                <item
+                    android:visible="false"
+                    android:id="@+id/nav_rvs_list"
+                    android:icon="@drawable/icon_file"
+                    android:title="RVS List"
+                    android:orderInCategory="4"
+                    tools:ignore="HardcodedText"
+                    />
+            </menu>
+        </item>
+
+        <item
+            android:title="Legal"
+            tools:ignore="HardcodedText"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_data_privacy_policy"
+                    android:icon="@drawable/icon_file"
+                    android:title="Data Privacy Policy"
+                    tools:ignore="HardcodedText"
+                    />
+                <item
+                    android:id="@+id/nav_terms_and_condition"
+                    android:icon="@drawable/icon_file"
+                    android:title="Terms and Conditions"
+                    tools:ignore="HardcodedText"
+                    />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
